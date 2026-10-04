@@ -16,10 +16,12 @@ Simulation of articulated rigid bodies in Unity (C#), built on a physics engine 
 <p align = "center">
   <img width="538" height="300" alt="Symplectic" src="https://github.com/user-attachments/assets/3b3193ab-f6d4-4846-b13d-4e55cde3c2ef" />
 </p>
+
 * **Implicit Euler with weak constraints:** a linear system is solved every step, using the Jacobians of the forces with respect to position and velocity (damping, gyroscopic term and constraint force). Much more stable with stiff constraints and large time steps
 <p align = "center">
   <img width="536" height="300" alt="Implicit" src="https://github.com/user-attachments/assets/c85219dd-6875-4e81-a0c9-c17f41552b86" />
 </p>
+
 * **Symplectic Euler with strong constraints:** constraints are solved exactly through the constraint vector and its Jacobian, using Lagrange multipliers, so the joints stay together without relying on stiffness
 <p align = "center">
   <img width="538" height="300" alt="Symplectic_strong" src="https://github.com/user-attachments/assets/eb584b5a-ae54-4364-8274-3524a55133e0" />
