@@ -1,5 +1,5 @@
 ## Overview
-Simulation of articulated rigid bodies in Unity (C#), built on a physics engine where rigid bodies are connected through point constraints. The project implements three different ways of integrating and solving the dynamics, making it possible to compare how each one handles constraints in terms of stability and behavior.
+Simulation of articulated rigid bodies in Unity (C#), where rigid bodies are connected through point constraints. The project implements three different ways of integrating and solving the dynamics, making it possible to compare how each one handles constraints in terms of stability and behavior.
 
 ## Features
 **Rigid bodies**
